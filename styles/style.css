@@ -33,7 +33,7 @@
 .section-title{
     font-size: 35px;
     font-weight: bold;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .section-description{
@@ -223,6 +223,7 @@ main{
 
 .resume-summary-content .section-title{
     margin-bottom: 110px;
+    text-align: center;
 }
 
 .resume-summary-content .main-content{
@@ -267,6 +268,56 @@ main{
     text-align: center;
     margin-top: 70px;
 }
+
+
+
+/* Footer Section */
+
+.footer-content{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 0;
+    /* background-color: #d9d9d9; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .section-description, .contact-form-section ::placeholder{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.footer-content .social-section{
+    width: 50%;
+    /* background-color: #8b0ae7; */
+
+}
+
+.footer .social-section img{
+    margin-right: 24px;
+}
+
+.footer-content .contact-form-section{
+    width: 50%;
+    padding-left: 95px;
+    /* background-color: #FD6E0A; */
+    /* margin-left: 95px; */
+}
+
+
+.footer-content .contact-form-section form{
+    margin-top: 30px;
+    /* background-color: #FD6E0A; */
+}
+
+.footer-content form input[type=text], .footer-content form input[type=email], .footer-content form textarea{
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
 
 
 
